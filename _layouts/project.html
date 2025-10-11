@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<section class="block">
+  <h2>{{ page.title }}</h2>
+
+  {% if page.hero %}
+    <img class="project-img" src="{{ page.hero | relative_url }}" alt="{{ page.title }} hero">
+  {% endif %}
+
+  {% if page.summary %}
+    <p class="lede">{{ page.summary }}</p>
+  {% endif %}
+
+  {{ content }}
+
+  {% if page.links %}
+    <p class="links">
+      {% for link in page.links %}
+        <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+      {% endfor %}
+    </p>
+  {% endif %}
+</section>
+<hr>

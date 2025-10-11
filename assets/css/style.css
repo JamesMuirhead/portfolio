@@ -1,0 +1,36 @@
+:root{
+  --bg:#0b0c0f; --fg:#fff; --muted:#a7acb8; --rule:#1a1d22;
+  --accent:#ff2a2a; --btn-bg:#14171d; --btn-bg-hover:#1a1f27; --maxw:780px;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 monospace}
+a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+
+.wrap{max-width:var(--maxw);margin:0 auto;padding:2rem 1rem 4rem}
+.site-head{margin:0 0 2rem 0;text-align:center}
+.site-title{margin:.5rem 0 0 0;font-size:1.4rem}
+.topnav{display:flex;gap:1rem;justify-content:center;margin:.5rem 0 0 0}
+.topnav a{color:var(--fg)}
+
+h1,h2,h3,h4,h5,h6{font-family:'DeepCryptHeader', serif;font-weight:600;color:var(--accent);margin:0 0 .25rem 0}
+.byline{color:var(--muted)}
+hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
+.block .lede{margin:.25rem 0 .75rem 0}
+
+.project-img{width:100%;max-width:100%;height:auto;display:block;margin:1rem auto}
+
+.links{display:flex;flex-wrap:wrap;gap:.5rem}
+.btn{display:inline-block;padding:.55rem .9rem;border-radius:.5rem;background:var(--btn-bg);color:var(--fg);border:1px solid var(--rule);transition:background .15s ease,transform .02s ease}
+.btn:hover{background:var(--btn-bg-hover);text-decoration:none}
+.btn:active{transform:translateY(1px)}
+
+.site-foot{text-align:center;color:var(--muted);margin-top:2rem}
+
+/* Custom font hook (optional – add files then uncomment)
+@font-face{
+  font-family:'DeepCryptHeader';
+  src:url('/assets/fonts/DeepCryptHeader.woff2') format('woff2');
+  font-weight:400; font-style:normal; font-display:swap;
+}
+*/
