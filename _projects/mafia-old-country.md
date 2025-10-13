@@ -18,9 +18,7 @@ I worked as a contracted **Mission Designer** during the final year of developme
 
 **Role:** Mission Designer
 
-<meta http-equiv="Content-Security-Policy"
-      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; child-src https://www.youtube.com https://www.youtube-nocookie.com; base-uri 'self'; form-action 'self'">
-
+{% include youtube.html id="JlpgAg4vFRg" %}
 
 ## Key Contributions
 
