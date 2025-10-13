@@ -1,36 +1,68 @@
+/* ===== Light, minimal theme ===== */
 :root{
-  --bg:#0b0c0f; --fg:#fff; --muted:#a7acb8; --rule:#1a1d22;
-  --accent:#ff2a2a; --btn-bg:#14171d; --btn-bg-hover:#1a1f27; --maxw:780px;
-  color-scheme:dark;
+  --bg:#ffffff; 
+  --fg:#111111;        /* body text and headings */
+  --muted:#666666;
+  --rule:#e9e9e9;
+  --accent:#111111;    /* links/buttons; adjust later if you want color */
+  --btn-bg:#f3f3f3;
+  --btn-bg-hover:#ececec;
+  --maxw:780px;
+  color-scheme: light;
 }
+
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font:16px/1.6 monospace}
-a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
 
 .wrap{max-width:var(--maxw);margin:0 auto;padding:2rem 1rem 4rem}
-.site-head{margin:0 0 2rem 0;text-align:center}
-.site-title{margin:.5rem 0 0 0;font-size:1.4rem}
-.topnav{display:flex;gap:1rem;justify-content:center;margin:.5rem 0 0 0}
+
+/* ===== Header ===== */
+.site-head{
+  display:flex; align-items:center; justify-content:space-between;
+  gap:1rem; margin:0 0 2rem 0;
+}
+.brand{display:flex; align-items:center; text-decoration:none}
+.brand img{display:block; height:36px; width:auto}
+.logo-slot{
+  display:block; width:120px; height:36px; 
+  background: #ddd; border:1px solid #ccc; border-radius:6px;
+}
+/* nav on the right */
+.topnav{display:flex; gap:1.25rem; flex-wrap:wrap}
 .topnav a{color:var(--fg)}
 
-h1,h2,h3,h4,h5,h6{font-family:'DeepCryptHeader', serif;font-weight:600;color:var(--accent);margin:0 0 .25rem 0}
+/* ===== Typography ===== */
+h1,h2,h3,h4,h5,h6{
+  font-family: monospace;     /* headers use monospace as requested */
+  font-weight:600;            /* reduce boldness */
+  color: var(--fg);           /* readable on white */
+  margin:0 0 .25rem 0;
+}
 .byline{color:var(--muted)}
+
+/* ===== Blocks and dividers ===== */
 hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
-.block .lede{margin:.25rem 0 .75rem 0}
+.block .lede{margin:.25rem 0 .75rem 0;color:var(--fg)}
 
-.project-img{width:100%;max-width:100%;height:auto;display:block;margin:1rem auto}
+/* ===== Images ===== */
+.project-img{
+  width:100%; max-width:100%; height:auto; display:block; margin:1rem 0;
+}
 
-.links{display:flex;flex-wrap:wrap;gap:.5rem}
-.btn{display:inline-block;padding:.55rem .9rem;border-radius:.5rem;background:var(--btn-bg);color:var(--fg);border:1px solid var(--rule);transition:background .15s ease,transform .02s ease}
-.btn:hover{background:var(--btn-bg-hover);text-decoration:none}
+/* ===== Buttons ===== */
+.links{display:flex; flex-wrap:wrap; gap:.5rem}
+.btn{
+  display:inline-block; padding:.55rem .9rem; border-radius:.5rem;
+  background:var(--btn-bg); color:var(--fg); border:1px solid var(--rule);
+  transition:background .15s ease, transform .02s ease; font-family:monospace;
+}
+.btn:hover{background:var(--btn-bg-hover); text-decoration:none}
 .btn:active{transform:translateY(1px)}
 
-.site-foot{text-align:center;color:var(--muted);margin-top:2rem}
+/* ===== Footer ===== */
+.site-foot{text-align:center; color:var(--muted); margin-top:2rem}
 
-/* Custom font hook (optional – add files then uncomment)
-@font-face{
-  font-family:'DeepCryptHeader';
-  src:url('/assets/fonts/DeepCryptHeader.woff2') format('woff2');
-  font-weight:400; font-style:normal; font-display:swap;
-}
-*/
+/* ===== Optional utilities ===== */
+.title-white{ color:#ffffff } /* only use if you intentionally place on dark bg */
