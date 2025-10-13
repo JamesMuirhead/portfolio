@@ -1,7 +1,26 @@
 ---
-title: Mafia: Old Country
-summary: Coming soon.
-links: []
+title: Mafia: The Old Country
+subtitle: PS5, Xbox Series X/S, PC
+summary: I worked as a contracted Mission Designer during the final year of development of Hangar 13's *Mafia: The Old Country*.
+thumb: /assets/img/projects/mafia/mafia-thumb.png
 ---
 
-Placeholder content for Mafia: Old Country. Update this page with UTF-8 text only.
+I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in 2K and Hangar 13's award-winning crime series.
+{: .lede }
+
+| **Studio** | Hangar 13 / 2K Czech |
+|-------------|----------------------|
+| **Engine** | Unreal Engine 5 |
+| **Team Size** | 200+ |
+| **Development Duration** | 2024&ndash;2025 |
+| **Role** | Mission Designer |
+
+{% include youtube.html id="JlpgAg4vFRg" %}
+
+## Key Contributions
+
+- Mission Designer responsible for approximately one hour of tightly narrative-driven gameplay content.  
+- Owned implementation and balancing of combat encounters, stealth sections, and walk/ride-and-talk sequences.  
+- Created mission logic and event scripting using Unreal Blueprints.  
+- Collaborated with environment artists, cinematic artists, animators, programmers, and narrative designers to refine content through extensive director and playtest feedback.  
+- Fixed over 200 game-critical bugs in my mission leading up to launch.  
