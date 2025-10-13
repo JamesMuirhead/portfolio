@@ -1,13 +1,11 @@
 {% comment %}
 Usage:
   {% include youtube.html id="VIDEO_ID" title="Optional title" %}
-Example:
-  {% include youtube.html id="JlpgAg4vFRg" title="Highland Trip Trailer" %}
 {% endcomment %}
 
 <div class="youtube-container">
   <iframe
-    src="https://www.youtube.com/embed/{{ include.id }}?rel=0"
+    src="https://www.youtube-nocookie.com/embed/{{ include.id }}?rel=0"
     title="{{ include.title | default: 'YouTube video player' }}"
     allowfullscreen
     loading="lazy"

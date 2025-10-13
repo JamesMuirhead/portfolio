@@ -9,12 +9,18 @@ I worked as a contracted **Mission Designer** during the final year of developme
 {: .lede }
 
 **Studio:** Hangar 13 / 2K Czech
+
 **Engine:** Unreal Engine 5
+
 **Team Size:** 200+
+
 **Development Duration:** 2024-2025
+
 **Role:** Mission Designer
 
-{% include youtube.html id="JlpgAg4vFRg" %}
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; frame-src https://www.youtube.com https://www.youtube-nocookie.com; child-src https://www.youtube.com https://www.youtube-nocookie.com; base-uri 'self'; form-action 'self'">
+
 
 ## Key Contributions
 
