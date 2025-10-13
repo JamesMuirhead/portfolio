@@ -1,5 +1,5 @@
 ---
-title: "Mafia: The Old Country
+title: "Mafia: The Old Country"
 subtitle: "PS5, Xbox Series X/S, PC"
 summary: "I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in Hangar 13's award-winning crime series."
 thumb: "/assets/img/projects/mafia/mafia-thumb.png"
