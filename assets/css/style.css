@@ -68,3 +68,49 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
 
 /* ===== Optional utilities ===== */
 .title-white{ color:#ffffff } /* only use if you intentionally place on dark bg */
+
+/* List items (thumbnail + text) */
+.list-item {
+  display: grid;
+  grid-template-columns: 160px 1fr; /* thumbnail column + text column */
+  gap: 1rem;
+  align-items: start;
+}
+.list-item .thumb img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+.list-item .item-body h3 {
+  margin: 0 0 .25rem 0;
+}
+.list-item .summary {
+  margin: 0 0 .75rem 0;
+  color: var(--fg);
+}
+
+/* Hero image on detail pages */
+.hero-img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0;
+}
+
+/* Subtitle under the title on detail pages */
+.subtitle {
+  font-size: 1rem;
+  color: var(--muted);
+  margin-top: -0.25rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
+/* Responsive tweak: stack list items on narrow screens */
+@media (max-width: 640px) {
+  .list-item { grid-template-columns: 1fr; }
+}
+

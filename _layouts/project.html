@@ -1,15 +1,15 @@
 ---
 layout: default
 ---
-<section class="block">
-  <h2>{{ page.title }}</h2>
+<article class="block">
+  <h1>{{ page.title }}</h1>
 
   {% if page.hero %}
-    <img class="project-img" src="{{ page.hero | relative_url }}" alt="{{ page.title }} hero">
+    <img class="hero-img" src="{{ page.hero | relative_url }}" alt="{{ page.title | escape }} hero">
   {% endif %}
 
-  {% if page.summary %}
-    <p class="lede">{{ page.summary }}</p>
+  {% if page.subtitle %}
+    <p class="subtitle">{{ page.subtitle }}</p>
   {% endif %}
 
   {{ content }}
@@ -21,5 +21,5 @@ layout: default
       {% endfor %}
     </p>
   {% endif %}
-</section>
+</article>
 <hr>

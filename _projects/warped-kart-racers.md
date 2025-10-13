@@ -1,8 +1,9 @@
 ---
 title: Warped Kart Racers
+subtitle: iOS, Mac, Apple TV
 summary: I worked as a live ops designer on Apple Arcade's longest supported title.
-hero: /assets/img/highland-trip.jpg
 thumb: /assets/img/highland-trip-thumb.jpg
+hero: /assets/img/highland-trip.jpg
 ---
 
 Warped Kart Racers is a kart racing game released on Apple Arcade, playable on Mac, iOS, and Apple TV, supporting touch, controller, and keyboard controls. As a member of the Warped Kart Racers team at Lively, I played a central role in shaping the gameplay experience and driving player engagement across five live updates.
