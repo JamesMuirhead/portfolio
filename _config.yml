@@ -3,7 +3,7 @@ description: Game developer portfolio, projects, and posts.
 
 # PROJECT SITE config:
 url: https://jamesmuirhead.github.io
-baseurl: "/Portfolio"   # e.g. "/portfolio"
+baseurl: "/portfolio"   # e.g. "/portfolio"
 
 markdown: kramdown
 
