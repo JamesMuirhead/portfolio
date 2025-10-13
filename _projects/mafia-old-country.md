@@ -1,10 +1,26 @@
 ---
-title: + + Highland Trip + +
-summary: A retro first-person horror set in the Scottish Highlands with Gaelic voice and text.
-hero: /assets/img/highland-trip.jpg
-thumb: /assets/img/highland-trip-thumb.jpg
-links:
-  - { label: GitHub, url: "https://github.com/<username>/<repo>" }
+title: Mafia: The Old Country
+subtitle: PS5, Xbox X/S, PC
+summary: I worked as a mission designer on fourth entry in the Mafia series.
+thumb: /assets/img/projects/warped-kart-racers/wkr-thumb.png
 ---
 
-Short paragraph about role, tools, outcomes.
+I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in 2K and Hangar 13’s award-winning crime series.
+{: .lede }
+
+| **Studio** | Hangar 13 / 2K Czech |
+|-------------|----------------------|
+| **Engine** | Unreal Engine 5 |
+| **Team Size** | 200+ |
+| **Development Duration** | 2024–2025 |
+| **Role** | Mission Designer |
+
+{% include youtube.html id="JlpgAg4vFRg" title="Mafia: The Old Country - Gameplay Trailer" %}
+
+## Key Contributions
+
+- Mission Designer responsible for approximately one hour of tightly narrative-driven gameplay content.  
+- Owned implementation and balancing of combat encounters, stealth sections, and walk/ride-and-talk sequences.  
+- Created mission logic and event scripting using Unreal Blueprints.  
+- Collaborated with environment artists, cinematic artists, animators, programmers, and narrative designers to refine content through extensive director and playtest feedback.  
+- Fixed over 200 game-critical bugs in my mission leading up to launch.  
