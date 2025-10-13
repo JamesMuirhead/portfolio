@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
+
+  <!-- Canonical MUST include baseurl on project sites -->
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
 
   {% seo %}
 
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  <!-- Use relative_url so /<repo-name>/ is auto-prepended -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <meta http-equiv="Content-Security-Policy"
@@ -17,7 +20,6 @@
 </head>
 <body>
   <main class="wrap">
-
     <header class="site-head">
       <h1 class="site-title"><a href="{{ '/' | relative_url }}">James Muirhead</a></h1>
       <nav class="topnav">

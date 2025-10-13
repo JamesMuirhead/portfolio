@@ -1,17 +1,20 @@
 title: James Muirhead — Portfolio
 description: Game developer portfolio, projects, and posts.
 
-# For a project site:
-url: https://jamesmuirhead.github.io
-baseurl: "/portfolio"     # e.g. "/portfolio"
+# PROJECT SITE config:
+url: https://<username>.github.io
+baseurl: "/<repo-name>"   # e.g. "/portfolio"
 
-permalink: /:categories/:title/
 markdown: kramdown
 
+# Pretty URLs for posts under /blog/
 collections:
   projects:
     output: true
     permalink: /projects/:name/
+  posts:
+    output: true
+    permalink: /blog/:title/
 
 plugins:
   - jekyll-seo-tag
