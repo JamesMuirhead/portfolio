@@ -6,13 +6,13 @@
   <title>{{ page.title }} | {{ site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <!-- Canonical MUST include baseurl on project sites -->
+  <!-- Canonical for project sites must include site.baseurl -->
   <link rel="canonical" href="{{ site.url }}{{ site.baseurl }}{{ page.url | replace:'index.html','' }}">
 
   {% seo %}
 
+  <!-- Use relative_url so /Portfolio is auto-prepended -->
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
-  <!-- Use relative_url so /<repo-name>/ is auto-prepended -->
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
   <meta http-equiv="Content-Security-Policy"
