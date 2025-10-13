@@ -1,19 +1,18 @@
 ---
 title: Mafia: The Old Country
 subtitle: PS5, Xbox Series X/S, PC
-summary: I worked as a contracted Mission Designer during the final year of development of Hangar 13's *Mafia: The Old Country*.
+summary: I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in Hangar 13's award-winning crime series.
 thumb: /assets/img/projects/mafia/mafia-thumb.png
 ---
 
-I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in 2K and Hangar 13's award-winning crime series.
+I worked as a contracted **Mission Designer** during the final year of development of *Mafia: The Old Country*, the latest entry in Hangar 13's award-winning crime series.
 {: .lede }
 
-| **Studio** | Hangar 13 / 2K Czech |
-|-------------|----------------------|
-| **Engine** | Unreal Engine 5 |
-| **Team Size** | 200+ |
-| **Development Duration** | 2024&ndash;2025 |
-| **Role** | Mission Designer |
+**Studio:** Hangar 13 / 2K Czech
+**Engine:** Unreal Engine 5
+**Team Size:** 200+
+**Development Duration:** 2024-2025
+**Role:** Mission Designer
 
 {% include youtube.html id="JlpgAg4vFRg" %}
 
