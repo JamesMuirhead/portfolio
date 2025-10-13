@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Home
-description: Game developer portfolio and selected work.
+title: Design
+description: Game design portfolio and selected work.
 ---
 
 <section class="block">

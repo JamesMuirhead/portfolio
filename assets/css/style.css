@@ -32,6 +32,8 @@ a:hover{text-decoration:underline}
 /* nav on the right */
 .topnav{display:flex; gap:1.25rem; flex-wrap:wrap}
 .topnav a{color:var(--fg)}
+.topnav a[aria-current="page"] { text-decoration: underline; }
+
 
 /* ===== Typography ===== */
 h1,h2,h3,h4,h5,h6{
