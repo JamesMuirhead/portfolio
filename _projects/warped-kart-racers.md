@@ -10,15 +10,16 @@ Warped Kart Racers is a kart racing game released on Apple Arcade, playable on M
 
 Reporting directly to the product owner, my responsibilities spanned live-ops analysis, gameplay design, and serving as the feature champion for new game modes. Initially contracted for two updates, our work helped maintain high player retention, prompting Apple to extend our contract for three additional updates. This extension made Warped Kart Racers the longest-supported title on Apple Arcade at the time.
 
-## Key Contributions:
-- Live Ops analysis and design for five live updates
+## Key Contributions
+- Live-ops analysis and design for five live updates
 - Designed and then feature-championed three new game modes
-- Wrote and maintained documentation on Confluence covering design, live-ops analysis and playtest experiments
-- Ran regular play testing sessions with the team and wider studio and analysed feedback
-- Organised localisation of in-game strings and achievements
+- Wrote and maintained documentation on Confluence covering design, live-ops analysis, and playtest experiments
+- Ran regular playtesting sessions with the team and wider studio and analyzed feedback
+- Organized localization of in-game strings and achievements
 - Pun master for achievements
 
-![Night vista — in-engine]({{ '/assets/img/projects/warped-kart-racers/picture1.jpg' | relative_url }}){: .project-img }
+![Night vista &mdash; in-engine]({{ '/assets/img/projects/warped-kart-racers/picture1.jpg' | relative_url }}){: .project-img }
+
 
 
 
