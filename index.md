@@ -4,26 +4,24 @@
   {% assign items = site.projects | sort: 'title' %}
   {% for p in items %}
     <article class="list-item">
+      <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
+
       {% if p.thumb %}
-        <a class="thumb" href="{{ p.url | relative_url }}">
-          <img src="{{ p.thumb | relative_url }}" alt="{{ p.title | escape }} thumbnail">
-        </a>
+        <img class="list-thumb" src="{{ p.thumb | relative_url }}" alt="{{ p.title | escape }} thumbnail">
       {% endif %}
 
-      <div class="item-body">
-        <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
-        {% if p.summary %}
-          <p class="summary">{{ p.summary }}</p>
+      {% if p.summary %}
+        <p class="summary">{{ p.summary }}</p>
+      {% endif %}
+
+      <p class="links">
+        <a class="btn" href="{{ p.url | relative_url }}">Learn more</a>
+        {% if p.links %}
+          {% for link in p.links %}
+            <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% endfor %}
         {% endif %}
-        <p class="links">
-          <a class="btn" href="{{ p.url | relative_url }}">Learn more</a>
-          {% if p.links %}
-            {% for link in p.links %}
-              <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
-            {% endfor %}
-          {% endif %}
-        </p>
-      </div>
+      </p>
     </article>
     <hr>
   {% endfor %}
