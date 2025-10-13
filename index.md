@@ -23,6 +23,7 @@
         {% endif %}
       </p>
     </article>
-    <hr>
+
+    {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
 </section>

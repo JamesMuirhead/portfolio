@@ -19,6 +19,7 @@
 
       <p><a class="btn" href="{{ post.url | relative_url }}">Read post</a></p>
     </article>
-    <hr>
+
+    {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
 </section>

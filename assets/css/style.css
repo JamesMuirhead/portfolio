@@ -103,3 +103,31 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
   margin-bottom: 1rem;
   font-style: italic;
 }
+
+/* --- Stack list items: Title → Thumb → Summary → Buttons --- */
+.list-item { display: block; margin-bottom: 1.25rem; }
+.list-item h3 { margin: 0 0 .5rem 0; }
+
+/* Full-width thumbnail under the title */
+.list-thumb {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin: .25rem 0 .75rem 0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+}
+
+/* Summary under the image */
+.summary { margin: 0 0 .75rem 0; color: var(--fg); }
+
+/* Remove any legacy grid styling if it still exists anywhere */
+.list-item .thumb,
+.list-item .item-body {
+  all: unset; /* nuke old wrappers if present */
+}
+
+/* Optional: tighten bottom page spacing now that <hr> is conditional */
+.site-foot { margin-top: 1.5rem; }
+
