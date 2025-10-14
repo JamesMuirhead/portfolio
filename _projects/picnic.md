@@ -1,4 +1,4 @@
----
+ï»¿---
 title: "Picnic"
 subtitle: "PC"
 summary: "A psychological horror project exploring antagonist AI design through psychoanalysis, built in Unity for my honours degree."
@@ -11,11 +11,11 @@ links:
 *Picnic* is a first-person horror game developed as my final year honours project at Abertay University. The project applied principles of **psychoanalysis** to the design of an antagonist AI, exploring how behaviour systems can evoke fear and discomfort in players.  
 {: .lede }
 
-The project earned a **First Class Honours degree** and received **4J Studios’ Creativity Award** at the 2022 Abertay Graduate Show.
+The project earned a **First Class Honours degree** and received **4J Studiosâ€™ Creativity Award** at the 2022 Abertay Graduate Show.
 
 **Platform:** PC  
 **Engine:** Unity  
-**Development Duration:** 2021–2022  
+**Development Duration:** 2021â€“2022  
 **Team Size:** Solo project  
 **Role:** Designer / Programmer  
 
