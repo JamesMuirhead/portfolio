@@ -10,10 +10,6 @@
       </a>
     {% endif %}
 
-    {% if p.summary %}
-      <p class="summary">{{ p.summary }}</p>
-    {% endif %}
-
     <p class="links">
       <a class="btn" href="{{ p.url | relative_url }}">Learn more</a>
       {% if p.links %}
