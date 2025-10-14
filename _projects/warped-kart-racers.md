@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Warped Kart Racers"
 subtitle: "iOS, Mac, Apple TV"
 summary: "I worked as a Live Ops Designer on Apple Arcade's longest-supported title, driving player engagement across five major updates."

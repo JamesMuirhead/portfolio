@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Picnic"
 subtitle: "PC"
 summary: "A psychological horror project exploring antagonist AI design through psychoanalysis, built in Unity for my honours degree."
