@@ -6,7 +6,9 @@
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
       {% if post.thumb %}
-        <img class="list-thumb" src="{{ post.thumb | relative_url }}" alt="{{ post.title | escape }} thumbnail">
+        <a class="thumb-link" href="{{ post.url | relative_url }}" aria-label="{{ post.title }}">
+          <img class="list-thumb" src="{{ post.thumb | relative_url }}" alt="{{ post.title | escape }} thumbnail">
+        </a>
       {% endif %}
 
       {% if post.summary %}
@@ -19,7 +21,6 @@
 
       <p><a class="btn" href="{{ post.url | relative_url }}">Read post</a></p>
     </article>
-
     {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
 </section>

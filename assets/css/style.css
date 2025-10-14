@@ -33,7 +33,7 @@ a:hover{text-decoration:underline}
 .brand{display:flex; align-items:center; text-decoration:none}
 .brand img{
   display:block;
-  width:100px;   /* ← make logo bigger here */
+  width:200px;    /* ← logo size */
   height:auto;
 }
 .logo-slot{
@@ -52,15 +52,18 @@ h1,h2,h3,h4,h5,h6{
   color:var(--fg);
   margin:0 0 .25rem 0;
 }
+
+/* Subtitle: regular, italic, slightly greyed, body size */
 .subtitle{
   font-family:"Source Sans 3", sans-serif;
-  font-weight:300;            /* light 300 */
-  font-size:1rem;
+  font-weight:400;            /* regular 400 */
+  font-size:1rem;             /* same as body */
+  font-style:italic;
   color:var(--muted);
   margin-top:-0.25rem;
   margin-bottom:1rem;
-  font-style:italic;
 }
+
 .byline{color:var(--muted)}
 
 /* ===== Blocks and dividers ===== */
@@ -68,9 +71,7 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
 .block .lede{margin:.25rem 0 .75rem 0;color:var(--fg)}
 
 /* ===== Images ===== */
-.project-img{
-  width:100%; max-width:100%; height:auto; display:block; margin:1rem 0;
-}
+.project-img,
 .hero-img{
   width:100%; max-width:100%; height:auto; display:block; margin:1rem 0;
 }
@@ -88,7 +89,7 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
 /* ===== Footer ===== */
 .site-foot{text-align:center; color:var(--muted); margin-top:2rem}
 
-/* Footer social links: inline, centered, tiny badges */
+/* Footer social links: plain text, inline & centered */
 .site-foot .social{
   list-style:none;
   display:flex; justify-content:center; align-items:center;
@@ -98,37 +99,15 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
 .site-foot .social li{ margin:0; }
 .site-foot .social a{
   color:var(--fg);
-  display:inline-flex; align-items:center; gap:.4rem;
   text-decoration:none;
 }
 .site-foot .social a:hover{ text-decoration:underline; }
 
-/* Text badges as small “icons” */
-.site-foot .social a::before{
-  content: attr(data-icon);
-  display:inline-block;
-  font-weight:600;
-  font-size:.72rem;
-  line-height:1;
-  padding:.2rem .35rem;
-  border:1px solid var(--rule);
-  border-radius:.35rem;
-  background:var(--btn-bg);
-  color:var(--fg);
-}
-
-/* Auto-label badges based on URL (no HTML changes required) */
-.site-foot .social a[href*="linkedin.com"]::before{ content:"in"; }
-.site-foot .social a[href*="bsky.app"]::before{ content:"bsky"; }
-.site-foot .social a[href*="x.com"]::before{ content:"x"; }
-
-/* ===== Optional utilities ===== */
-.title-white{ color:#ffffff } /* only use if you intentionally place on dark bg */
-
-/* ===== Stacked list items (title → image → summary → buttons) ===== */
+/* ===== Stacked list items (title → image → summary/buttons) ===== */
 .list-item { display:block; margin-bottom:1.25rem; }
 .list-item h3 { margin:0 0 .5rem 0; }
 
+/* Thumbs (used in lists) */
 .list-thumb{
   display:block;
   width:100%; max-width:100%; height:auto;
@@ -137,6 +116,19 @@ hr{border:0;border-top:1px solid var(--rule);margin:2rem 0}
   border-radius:6px;
 }
 
+/* Clickable thumbnails with subtle hover effect */
+.thumb-link{ display:block; }
+.thumb-link .list-thumb{
+  transition: transform .12s ease, box-shadow .12s ease, opacity .12s ease;
+}
+.thumb-link:hover .list-thumb,
+.thumb-link:focus .list-thumb{
+  transform: translateY(-1px);
+  box-shadow: 0 2px 10px rgba(0,0,0,.06);
+  opacity: 0.98;
+}
+
+/* Blog summaries (Projects list loop no longer shows summary) */
 .summary{ margin:0 0 .75rem 0; color:var(--fg); }
 
 /* ===== YouTube Embed ===== */

@@ -7,11 +7,9 @@
       <h3><a href="{{ p.url | relative_url }}">{{ p.title }}</a></h3>
 
       {% if p.thumb %}
-        <img class="list-thumb" src="{{ p.thumb | relative_url }}" alt="{{ p.title | escape }} thumbnail">
-      {% endif %}
-
-      {% if p.summary %}
-        <p class="summary">{{ p.summary }}</p>
+        <a class="thumb-link" href="{{ p.url | relative_url }}" aria-label="{{ p.title }}">
+          <img class="list-thumb" src="{{ p.thumb | relative_url }}" alt="{{ p.title | escape }} thumbnail">
+        </a>
       {% endif %}
 
       <p class="links">
@@ -23,7 +21,6 @@
         {% endif %}
       </p>
     </article>
-
     {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
 </section>
