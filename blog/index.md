@@ -7,7 +7,7 @@ permalink: /blog/
 <section class="block">
   <h2>Blog</h2>
 
-  {% for post in site.posts %}
+  {% for post in site.posts reversed %}
     <article class="list-item">
       <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
