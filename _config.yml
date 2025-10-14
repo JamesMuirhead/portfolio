@@ -1,5 +1,5 @@
-title: James Muirhead — Portfolio
-description: Game developer portfolio, projects, and posts.
+﻿title: James Muirhead
+description: Game developer portfolio and blog.
 
 # PROJECT SITE config:
 url: https://jamesmuirhead.github.io
@@ -37,4 +37,5 @@ defaults:
     values:
       layout: page
 
+encoding: "utf-8"
 
