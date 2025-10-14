@@ -1,18 +1,18 @@
----
+ï»¿---
 title: "Warped Kart Racers"
 subtitle: "iOS, Mac, Apple TV"
 summary: "I worked as a Live Ops Designer on Apple Arcade's longest-supported title, driving player engagement across five major updates."
 thumb: "/assets/img/projects/warped-kart-racers/wkr-thumb.png"
 ---
 
-I worked as a **Live Ops Designer** on *Warped Kart Racers*, a kart racing game on Apple Arcade supporting Mac, iOS, and Apple TV. As part of Lively’s design team, I helped shape the live experience and led the design of new game modes across five updates.
+I worked as a **Live Ops Designer** on *Warped Kart Racers*, a kart racing game on Apple Arcade supporting Mac, iOS, and Apple TV. As part of Livelyâ€™s design team, I helped shape the live experience and led the design of new game modes across five updates.
 {: .lede }
 
 **Studio:** Electric Square  
 **Clients:** 20th Television / Apple Arcade  
 **Engine:** Unity  
 **Team Size:** 12+  
-**Development Duration:** 2022–2024  
+**Development Duration:** 2022â€“2024  
 **Role:** Live Ops Designer  
 
 ![Warped Kart Racers Screenshot]({{ '/assets/img/projects/warped-kart-racers/picture1.jpg' | relative_url }}){: .project-img }
