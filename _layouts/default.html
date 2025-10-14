@@ -10,6 +10,9 @@
   {% seo %}
 
   <link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+  
+  <!-- Source Sans 3 font -->
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;400;600&display=swap" rel="stylesheet"
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
 <meta http-equiv="Content-Security-Policy"
@@ -47,11 +50,11 @@
     {{ content }}
 
     <footer class="site-foot">
-      <ul class="social">
-        <li><a href="https://www.linkedin.com/in/james-muirhead/" target="_blank" rel="noopener">Linkedin</a></li>  
-        <li><a href="https://bsky.app/profile/mockchop.bsky.social" target="_blank" rel="noopener">Bluesky</a></li>
-        <li><a href="https://x.com/_MockChop" target="_blank" rel="noopener">Twitter</a></li>
-      </ul>  
+        <ul class="social">
+        <li><a href="https://www.linkedin.com/in/james-muirhead/" target="_blank" rel="noopener" data-icon="in">LinkedIn</a></li>
+        <li><a href="https://bsky.app/profile/mockchop.bsky.social" target="_blank" rel="noopener" data-icon="bsky">Bluesky</a></li>
+        <li><a href="https://x.com/_MockChop" target="_blank" rel="noopener" data-icon="x">Twitter</a></li>
+    </ul>
     <p class="copyright">© <span id="y"></span> {{ site.title }}</p>
     <p class="byline">Memento Mori</p>
     </footer>
