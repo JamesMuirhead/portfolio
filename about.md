@@ -1,10 +1,12 @@
 ---
-title: About
-description: About James Muirhead
+title: "About"
 ---
 
-I’m a game developer focused on atmospheric, retro-inspired experiences and practical tooling.
+I’m a **game designer and developer** based in Scotland, working across narrative, mission, and systems design. I’ve contributed to titles for **Hangar 13** and **Electric Square**, and I’m now building my own studio, **Deep Crypt Games**, where I’m developing a Gaelic-language horror game called *Highland Trip*.
+{: .lede }
 
-**Skills:** Unity (C#), custom editor tools, PSX-style rendering, mission/encounter design, Blender, Git LFS.
+Before founding Deep Crypt, I worked as a **Mission Designer** on *Mafia: The Old Country* with Hangar 13, shaping narrative gameplay across a large, collaborative team. Before that, I was a **Live Ops Designer** on *Warped Kart Racers*, Apple Arcade’s longest-supported title, where I focused on player retention, balance, and event design. Those experiences—AAA storytelling on one hand and live-service experimentation on the other—have given me a broad understanding of the games industry as a whole.
 
-**Currently:** Building portfolio pieces and open-sourcing small utilities.
+**Deep Crypt Games** grew from a desire to make **smaller, stranger, and more personal work**—games that speak to place, memory, and language. *Highland Trip* draws on Scottish landscapes, Celtic tradition, and my experiences growing up in rural Scotland. I’m using horror as a way to explore **nostalgia and the uncanny**.
+
+My current hyperfixations outside of making games are **painting Warhammer 40K** and **brewing single-origin coffee**.
