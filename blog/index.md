@@ -1,3 +1,9 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
 <section class="block">
   <h2>Blog</h2>
 
@@ -19,7 +25,14 @@
         {% endif %}
       {% endif %}
 
-      <p><a class="btn" href="{{ post.url | relative_url }}">Read post</a></p>
+      <p class="links">
+        <a class="btn" href="{{ post.url | relative_url }}">Read post</a>
+        {% if post.links %}
+          {% for link in post.links %}
+            <a class="btn" href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>
+          {% endfor %}
+        {% endif %}
+      </p>
     </article>
     {% unless forloop.last %}<hr>{% endunless %}
   {% endfor %}
