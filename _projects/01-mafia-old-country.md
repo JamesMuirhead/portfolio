@@ -31,7 +31,6 @@ I worked as a contracted **Mission Designer** during the final year of developme
 - Collaborated with environment artists, cinematic artists, animators, programmers, and narrative designers to refine content through extensive director and playtest feedback.  
 - Fixed over 200 game-critical bugs in my mission leading up to launch. 
 
-
 ![Mafia Screenshot]({{ '/assets/img/projects/mafia/picture1.png' | relative_url }}){: .project-img } 
 ![Mafia Screenshot]({{ '/assets/img/projects/mafia/picture2.png' | relative_url }}){: .project-img } 
 ![Mafia Screenshot]({{ '/assets/img/projects/mafia/picture3.png' | relative_url }}){: .project-img } 

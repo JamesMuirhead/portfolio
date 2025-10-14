@@ -54,7 +54,6 @@ Balanced AI targeting and temporary buffs to maintain fair, exciting matches.
 Removed random items, replacing them with a drift-powered battery mechanic that directly affects kart speed and boost.  
 Focused on rewarding precision and mastery for competitive players.  
 
-
 ![Warped Kart Racers Screenshot]({{ '/assets/img/projects/warped-kart-racers/picture5.png' | relative_url }}){: .project-img }
 ![Warped Kart Racers Screenshot]({{ '/assets/img/projects/warped-kart-racers/picture8.png' | relative_url }}){: .project-img }
 ![Warped Kart Racers Screenshot]({{ '/assets/img/projects/warped-kart-racers/picture10.png' | relative_url }}){: .project-img }
