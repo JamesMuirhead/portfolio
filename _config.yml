@@ -2,8 +2,8 @@
 description: Game developer portfolio and blog.
 
 # PROJECT SITE config:
-url: https://jamesmuirhead.github.io
-baseurl: "/portfolio"   # e.g. "/portfolio"
+url: https://www.muirhead.design
+baseurl: ""     # <- IMPORTANT: empty for a custom-domain project site
 
 markdown: kramdown
 
