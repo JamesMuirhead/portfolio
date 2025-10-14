@@ -33,7 +33,7 @@ a:hover{text-decoration:underline}
 .brand{display:flex; align-items:center; text-decoration:none}
 .brand img{
   display:block;
-  width:200px;   /* ← make logo bigger here */
+  width:100px;   /* ← make logo bigger here */
   height:auto;
 }
 .logo-slot{
@@ -54,12 +54,12 @@ h1,h2,h3,h4,h5,h6{
 }
 .subtitle{
   font-family:"Source Sans 3", sans-serif;
-  font-weight:200;            /* extra-light 200 */
+  font-weight:300;            /* light 300 */
   font-size:1rem;
   color:var(--muted);
   margin-top:-0.25rem;
   margin-bottom:1rem;
-  font-style:normal;
+  font-style:italic;
 }
 .byline{color:var(--muted)}
 
