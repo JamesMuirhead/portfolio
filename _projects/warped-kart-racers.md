@@ -1,5 +1,5 @@
 ---
-title: "Warped Kart Racers"
+title: "Warped Kart Racers (2024)"
 subtitle: "iOS, Mac, Apple TV"
 summary: "I worked as a Live Ops Designer on Apple Arcade's longest-supported title, driving player engagement across five major updates."
 thumb: "/assets/img/projects/warped-kart-racers/wkr-thumb.png"

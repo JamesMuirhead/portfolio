@@ -1,5 +1,5 @@
 ---
-title: "Picnic"
+title: "Picnic (2022)"
 subtitle: "PC"
 summary: "A psychological horror project exploring antagonist AI design through psychoanalysis, built in Unity for my honours degree."
 thumb: "/assets/img/projects/picnic/picnic-thumb.png"
