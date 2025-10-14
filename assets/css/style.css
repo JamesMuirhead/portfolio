@@ -172,7 +172,7 @@ article.block img:not(.list-thumb):not(.logo) {
   max-width: 100%;
   height: auto;
   display: block;
-  margin: 0 auto 0.5rem auto;  /* only 0.5rem gap before caption */
+  margin: 0 auto 0 auto;  /* only 0.5rem gap before caption */
 }
 
 .post-content figure figcaption {
