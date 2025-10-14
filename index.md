@@ -1,5 +1,4 @@
 <section class="block">
-  <h2>Projects</h2>
 
   {% assign items = site.projects | sort: 'title' %}
   {% for p in items %}
