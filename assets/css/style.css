@@ -161,3 +161,25 @@ article.block img:not(.list-thumb):not(.logo) {
   margin: 1.5rem 0;
 }
 
+/* === Blog post image captions (manual figure/figcaption) === */
+.post-content figure {
+  margin: 1.5rem 0;            /* overall space above/below the figure block */
+  text-align: center;
+}
+
+.post-content figure img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 0.5rem auto;  /* only 0.5rem gap before caption */
+}
+
+.post-content figure figcaption {
+  font-size: 0.9rem;
+  color: var(--muted);
+  font-style: italic;
+  margin: 0;                   /* remove extra paragraph spacing */
+  line-height: 1.4;
+}
+
