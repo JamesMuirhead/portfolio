@@ -3,6 +3,7 @@ title: "Picnic"
 subtitle: "PC"
 summary: "A psychological horror project exploring antagonist AI design through psychoanalysis, built in Unity for my honours degree."
 thumb: "/assets/img/projects/picnic/picnic-thumb.png"
+order: 1
 
 links:
   - { label: itch.io,  url: "https://jamesmuirhead.itch.io/picnic" }
