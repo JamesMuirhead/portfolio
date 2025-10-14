@@ -33,7 +33,7 @@ a:hover{text-decoration:underline}
 .brand{display:flex; align-items:center; text-decoration:none}
 .brand img{
   display:block;
-  width:150px;    /* ← logo size */
+  width:100px;    /* ← logo size */
   height:auto;
 }
 .logo-slot{
