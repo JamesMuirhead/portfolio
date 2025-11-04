@@ -8,7 +8,7 @@ links:
   - { label: App Store,  url: "https://apps.apple.com/us/app/warped-kart-racers/id1539378079" }
 ---
 
-I worked as a **Live Ops Designer** on *Warped Kart Racers*, a kart racing game on Apple Arcade supporting Mac, iOS, and Apple TV. As part of Lively’s design team, I helped shape the live experience and led the design of new game modes across five updates.
+I worked as a **Live Ops Designer** on *Warped Kart Racers*, a kart racing game on Apple Arcade supporting Mac, iOS, and Apple TV. As part of Electric Square's design team, I helped shape the live experience and led the design of new game modes across five updates.
 {: .lede }
 
 **Studio:** Electric Square  
